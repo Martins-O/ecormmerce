@@ -1,5 +1,9 @@
 package com.martins.ecommerce.model.dto.request;
 
+import com.martins.ecommerce.model.data.Address;
+
+import java.time.LocalTime;
+
 public class SignUpRequest {
     private String username;
     private String password;
